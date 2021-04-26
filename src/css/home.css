@@ -1,0 +1,45 @@
+button{
+        border-width: 0;
+        background-color: inherit;
+        color: white;
+}
+
+li{
+        padding: 0 0.5rem;
+}
+
+#nav-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#home-img-container{
+        position: absolute;
+        text-align: center;
+        margin: 3rem auto;
+        width: 100%;
+}
+.blur-container{
+        -webkit-filter: blur(7px);
+        filter: blur(7px);
+}
+
+.my-4{
+        position: fixed;
+        top: 15%;
+        left: 15%;
+}
+.my-5{
+        font-size: 1.25rem;
+}
+
+.err-message{
+    display: block;
+    width: 10rem;
+    margin: auto;
+    color: white;
+    border: 1px solid red;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
